@@ -307,6 +307,61 @@ ol {
 }
 
 @media (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    h1, h2, h3 {
+        font-size: 12px;
+    }
+    .main, p {
+        font-size: 10px;
+    }
+    .caracteristicas, p{
+        font-size: 10px;
+    }
+    .hilorama, p {
+        font-size: 10px;
+    }
+    .rotacion, p {
+        font-size: 10px;
+    }
+    .relacion, p {
+        font-size: 10px;
+    }
+    .gris, p {
+        font-size: 10px;
+    }
+    .cultura, p {
+        font-size: 10px;
+    }
+    .fundamento, p {
+        font-size: 10px;
+    }
+    .formula-inline {
+        font-size: 8px;
+    }
+    .formula-block {
+        font-size: 9px;
+    }
+    .hilorama img {
+        width: 150px;
+        height: 150px;
+        margin: 5px;
+    }
+    .rotacion img {
+        width: 150px;
+        height: 150px;
+        margin: 5px;
+    }
+    .relacion img {
+        width: 250px;
+        height: 175px;
+        margin: 5px;
+    }
+
     .imagen-container {
         width: auto;
         height: auto;

@@ -303,4 +303,14 @@ ol {
 
 .caracteristicas ol {
     list-style: none;
+
+}
+
+@media (max-width: 600px) {
+    .hilorama img,
+    .rotacion img,
+    .relacion img {
+        width: 100%;
+        height: auto;
+    }
 }

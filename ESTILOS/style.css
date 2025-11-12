@@ -307,12 +307,23 @@ ol {
 }
 
 @media (max-width: 768px) {
-    .hilorama img,
-    .rotacion img,
-    .relacion img {
+    .imagen-container {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .imagen-contenedor {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .imagenes-container {
         width: auto;
         height: auto;
         display: flex;
         flex-direction: column;
     }
 }
+

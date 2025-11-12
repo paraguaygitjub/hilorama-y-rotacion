@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotación Geométrica</title>
+    <link rel="stylesheet" href="ESTILOS/style.css" type="text/css">
+    <link rel="icon" href="IMAGENES/logoab.jpg" type="image/png">
+    <ul>
+        <nav>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="hilorama.html">Hiloramas Geomtétricos</a></li>
+            <li><a href="rotacion.html" class="active">Rotación Geométrica</a></li>
+            <li><a href="relacion.html">Relación entre hilorama y rotación</a></li>
+        </nav>
+    </ul>
+</head>
+
+<body>
+    <div class="main">
+        <h1>Rotación Geomtétrica</h1>
+        <p>
+            La rotación geométrica es una transformación que gira una figura alrededor de un punto fijo, llamado centro
+            de rotación, manteniendo su forma y tamaño. La cantidad de giro se mide en grados y puede ser horaria o
+            antihoraria.
+        </p>
+        <p>
+            Desde una perspectiva histórica, el concepto de rotación ha sido estudiado desde la antigüedad. Los
+            astrónomos griegos ya comprendían que los movimientos de los planetas seguían trayectorias circulares y que
+            sus rotaciones definían los ciclos del tiempo.
+            <br>En la actualidad, este mismo principio matemático es el que permite calcular giros en animaciones 3D,
+            simulaciones físicas o movimientos de cámaras virtuales.
+            <br>Este tipo de transformación se observa constantemente en la naturaleza y en la vida cotidiana: el
+            movimiento de los planetas, las ruedas, los ventiladores o los engranajes mecánicos son ejemplos concretos
+            de la rotación. Su estudio permite comprender la regularidad del movimiento circular y su aplicación en el
+            diseño, la ingeniería y el arte.
+        </p>
+        <p>
+            Asimismo, el estudio de la rotación tiene un valor filosófico y simbólico en el arte. En muchas culturas, el
+            círculo y el movimiento rotacional representan la continuidad, el equilibrio y el infinito. Al incorporar
+            este principio en obras visuales o matemáticas, se logra expresar la conexión entre el orden del universo y
+            la creatividad humana.
+        </p>
+        <br>
+    </div>
+
+    <!-- Clases separadas fuera del main -->
+    <br>
+    <h2>Algunos ejemplos de rotación.</h2>
+    <br>
+    <div class="rotacion">
+        <img src="IMAGENES/rotacion2.jpg" alt="Rotación 2">
+        <img src="IMAGENES/rotacion1.jpg.png" alt="rotación 1">
+    </div>
+    <br>
+    <div class="fundamento">
+        <h1>Fundamento Matemático:</h1>
+        <p>
+            Si un punto se rota grados alrededor del origen, sus nuevas coordenadas se calculan mediante:
+            <br>
+            <span class="formula-inline">x' = x · cos(θ) - y · sin(θ)</span>
+            <br>
+            <span class="formula-inline">y' = x · sin(θ) + y · cos(θ)</span>
+        </p>
+        <div class="formula">
+            <h3>Formulas de rotación geométrica</h3>
+            <p>
+                Si un punto P(x, y) se rota un ángulo alrededor del origen (0, 0), sus nuevas coordenadas P' (x',
+                y') se calculan como:
+                <br>
+            <h4>Rotación antihoraria</h4>
+            <span class="formula-inline">x' = x · cos(θ) - y · sin(θ)</span><br>
+            <span class="formula-inline">y' = x · sin(θ) + y · cos(θ)</span>
+
+            <h4>Rotación horaria</h4>
+            <span class="formula-inline">x' = x · cos(θ) + y · sin(θ)</span><br>
+            <span class="formula-inline">y' = -x · sin(θ) + y · cos(θ)</span>
+
+            <h4>Rotación con respecto al eje x</h4>
+            <span class="formula-inline">y' = y · cos(θ) - z · sin(θ)</span><br>
+            <span class="formula-inline">z' = y · sin(θ) + z · cos(θ)</span>
+
+            <h4>Rotación con respecto al eje y</h4>
+            <span class="formula-inline">x' = x · cos(θ) + z · sin(θ)</span><br>
+            <span class="formula-inline">z' = -x · sin(θ) + z · cos(θ)</span>
+
+            <h4>Rotación con respecto al eje z</h4>
+            <span class="formula-inline">x' = x · cos(θ) - y · sin(θ)</span><br>
+            <span class="formula-inline">y' = x · sin(θ) + y · cos(θ)</span>
+            <br>Estas fórmulas permiten calcular con precisión la posición de cada punto tras el giro, lo cual es
+            esencial en el diseño geométrico, animación digital y arquitectura.
+            </p>
+        </div>
+    </div>
+    <br>
+    <div class="caracteristicas">
+        <h2>Características de la rotación geométrica</h2>
+        <p>
+        <ol>
+            <li>Mantiene el tamaño y forma dela figura (isometría).</li>
+            <li>Tiene un punto fijo, llamado centro de rotación.</li>
+            <li>Se define por un ángulo y un sentido (horario y antihorario).</li>
+            <li>Permite crear simetrías rotacionales y diseños equilibrados.</li>
+            <li>Se aplica en ingeniería, diseño gráfico, arquitectura y arte.</li>
+        </ol>
+        </p>
+    </div>
+</body>
+
+<footer>
+    <ul>
+        <nav>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="hilorama.html">Hilorama</a></li>
+            <li><a href="rotacion.html">Rotación</a></li>
+            <li><a href="relacion.html">Relación</a></li>
+        </nav>
+    </ul>
+    &copy; 2025 Todos los derechos reservados.
+    Todas las imágenes fueron sacadas de internet con fines educativos.
+</footer>
+
+</html>

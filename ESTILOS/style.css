@@ -312,6 +312,28 @@ ol {
         padding: 0;
         box-sizing: border-box;
     }
+    .link-inicio,
+    .link-hilorama,
+    .link-rotacion,
+    .link-relacion {
+        font-size: 0;
+    }
+    .link-inicio::after {
+        content: "Inicio";
+        font-size: 10px;
+    }
+    .link-hilorama::after {
+        content: "Hiloramas";
+        font-size: 10px;
+    }
+    .link-rotacion::after {
+        content: "Rotación";
+        font-size: 10px;
+    }
+    .link-relacion::after {
+        content: "Relación";
+        font-size: 10px;
+    }
 
     h1, h2, h3 {
         font-size: 12px;

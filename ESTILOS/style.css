@@ -306,11 +306,13 @@ ol {
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .hilorama img,
     .rotacion img,
     .relacion img {
-        width: 100%;
+        width: auto;
         height: auto;
+        display: flex;
+        flex-direction: column;
     }
 }
